@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/single-column-page/images/favicon-32x32.png">
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" >
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+  
+  <!-- css link -->
+  <link rel="stylesheet" href="/single-column-page/style.css">
+  <!-- responsive css file -->
+  <link rel="stylesheet" href="/single-column-page/Responsive.css">
+
+</head>
+<body>
+  <!-- whole page -->
+  <div class="page">
+    <!-- container -->
+    <div class="container">
+      <!-- ping logo -->
+      <div class="container__logo">
+        <img src="/single-column-page/images/logo.svg" alt="no logo" srcset="">
+      </div>
+      <!-- heading and text -->
+      <div class="container__home-containt">
+        <span>We are launching </span> <strong> soon!</strong>
+        <p>Subscribe and get notified</p>
+      </div>
+      <!-- input form -->
+      <form class="container__varification" id="myForm">
+        <div class="var-input">
+          <input type="email" placeholder="Your email address.. " id="email" class="email" name="email" >
+          <p class="error-text"></p>
+        </div>
+          <button id="btn" class="btn" onclick="validateForm()">Notify Me</button>
+      </form>
+      <!-- desktop image -->
+      <div class="container__desk-image">
+        <img src="/single-column-page/images/illustration-dashboard.png" alt="Workspace on a desk">
+      </div>
+      <!-- social media links -->
+      <div class="container__social-media">
+        <a href="#"><i class="fab fa-facebook-f" ></i></a>
+        <a href="#"><i class="fab fa-twitter" ></i></a>
+        <a href="#"><i class="fab fa-instagram" ></i></a>
+      </div>
+      <!-- copyright -->
+      <div class="container__copyright">
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+ <script src="/single-column-page/script.js"></script>
+</body>
+</html>
+
+
